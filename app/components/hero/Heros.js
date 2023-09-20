@@ -14,9 +14,9 @@ const Heros=()=>{
             </div>
             {/* <div className="grid grid-cols-1 md-grid-cols-2 lg:grid-cols-3 gap-10 justify-between items-center"> */}
             <div className="flex justify-between items-center mr-10">
-                <Image src={image1} alt="first Image" width={200} height={200}  className="mx-2 rounded-2xl"/>
-                <Image src={image3} alt="first Image" width={200} height={200}  className="mx-2 rounded-2xl"/>
-                <Image src={image2} alt="first Image" width={200} height={200}  className="mx-2 rounded-2xl"/>
+                <Image src={image1} alt="first Image" width={200} height={200} data-aos="slide-up"  className="mx-2 rounded-2xl"/>
+                <Image src={image3} alt="first Image" width={200} height={200} data-aos="zoom-out"  className="mx-2 rounded-2xl"/>
+                <Image src={image2} alt="first Image" width={200} height={200} data-aos="slide-down"  className="mx-2 rounded-2xl"/>
             </div>
         </div>
     )
