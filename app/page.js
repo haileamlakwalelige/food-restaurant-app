@@ -2,7 +2,7 @@
 
 
 import Navbar from './components/navbar/Navbar';
-import Hero from './components/hero/Hero';
+import Heros from './components/hero/Heros';
 import Hero2 from './components/hero/Hero2';
 import About from './components/abouts/About';
 import AOS from 'aos';
@@ -20,11 +20,11 @@ const Home=()=>{
     AOS.init({duration:500});
   },[]);
   return(
-    <div className="bg-white flex flex-col">
+    <div className="bg-white flex flex-col overflow-x-hidden">
      <div className='shadow-2xl shadow-white'>
      <Navbar />
      </div>
-     <Hero />
+     <Heros />
      <Hero2 />
      <About />
      <Mails />

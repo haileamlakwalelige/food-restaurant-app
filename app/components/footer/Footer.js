@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="bg-[#534b4b] text-white py-5">
+    <div className="bg-[#04080F] text-white py-5">
      <div className="flex justify-center items-center">
      <FaChessKing size={50}  className="sm:mx-3 ml-2 mr-1 sm:mr-5 hover:text-blue-600 font-bold text-white"/>
      <h1 className='font-bold font-serif text-xl sm:text-3xl text-center pt-3'>Kingo Restaurant</h1>
