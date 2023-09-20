@@ -20,6 +20,7 @@ const Footer = () => {
             <li className='font-light text-lg hover:underline hover:text-blue-500 cursor-pointer hover:font-bold'>For Ceremony</li>
           </div>
         </div>
+        
         <div>
           <h1 className="font-bold text-xl text-center py-3">Find us </h1>
           <div className='font-bold flex flex-col md:flex-row justify-center items-center'>
